@@ -1,0 +1,16 @@
+spongebob = input("Enter string: ")
+
+memed_spongebob = " "
+count = 0
+for letter in spongebob:
+  count += 1
+  decider = count % 2
+  if decider == 0:
+    meme = letter
+    memed_spongebob += meme.upper()
+  else: 
+    meme = letter
+    memed_spongebob += meme.lower()
+ 
+
+print(memed_spongebob)
